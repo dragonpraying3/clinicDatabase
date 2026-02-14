@@ -10,6 +10,7 @@ Previously, the clinic stored patient information manually on paper. This caused
 
 To solve these issues, this project develops a relational database system using SQL to manage clinic data more efficiently and accurately.
 
+______________________________________________________________________
 🎯 Project Objectives
 -Store patient information digitally
 -Manage appointments without conflicts
@@ -19,34 +20,16 @@ To solve these issues, this project develops a relational database system using 
 -Improve overall clinic efficiency
 
 🛠 Tools & Technology
--SQL (Structured Query Language)
+-PostgreSQL (Structured Query Language)
 -Relational Database Management System (RDBMS)
 -ERD (Entity Relationship Diagram)
 -Database Normalization (up to 3NF)
-
-🏥 System Modules
-👤 Patient
-Store patient details
-Keep treatment history
-
-📅 Appointment
-Schedule patient appointments
-Prevent double-booking
-
-🦷 Treatment
-Record dental procedures
-Link treatments to patients
-
-💳 Billing
-Generate invoices
-Track payments
-Record insurance information
 
 🗂 Database Design
 The database design includes:
 -Entity Relationship Diagram (ERD)
 -Business rules
--Normalization process
+-Normalization process （junction table)
 -Primary and Foreign Keys
 -SQL table creation
 
